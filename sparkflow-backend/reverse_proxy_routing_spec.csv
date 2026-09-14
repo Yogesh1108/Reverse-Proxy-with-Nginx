@@ -1,0 +1,2 @@
+public_server,backend_host,backend_port,path_handling,upstream_target,sample_request_path,expected_routed_destination_path,forward_host_header,connect_timeout_seconds,read_timeout_seconds
+api.example.com,127.0.0.1,8080,preserve,sparkflow_backend,/api/health,/api/health,true,5,30
